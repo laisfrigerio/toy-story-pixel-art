@@ -1,0 +1,285 @@
+:root {
+  --black: #000;
+  --blue: #264d80;
+  --gray: #bcbcbc;
+  --brown-600: #c15d40;
+  --brown-700: #c15e3f;
+  --brown-800: #c2392e;
+  --brown-900: #6f2e2d;
+  --orange: #f39235;
+  --rose-300: #fdd1a9;
+  --rose-400: #ffb395;
+  --yellow-500: #f8cf29;
+  --yellow-600: #e5bf20;
+  --white: #fff;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.woody {
+  /* Sola da bota */
+  box-shadow: 10px 150px var(--brown-700),
+              20px 150px var(--brown-700),
+              30px 150px var(--brown-700),
+              35px 150px var(--orange),
+              45px 150px var(--gray),
+              50px 150px var(--orange),
+              55px 150px var(--brown-700),
+              65px 150px var(--brown-700),
+              75px 150px var(--brown-700),
+              85px 150px var(--gray),
+              95px 150px var(--gray),
+              /* Linha 2 da sola da bota */
+              20px 140px var(--brown-700),
+              30px 140px var(--brown-700),
+              60px 140px var(--brown-700),
+              70px 140px var(--brown-700),
+              /* Linha 3 da sola da bota */
+              30px 130px var(--brown-700),
+              20px 130px var(--brown-700),
+              60px 130px var(--brown-700),
+              70px 130px var(--brown-700),
+              /* Início da calca */
+              20px 120px var(--blue),
+              30px 120px var(--blue),
+              60px 120px var(--blue),
+              70px 120px var(--blue),
+              /* Linha 2 - calca */
+              20px 110px var(--blue),
+              30px 110px var(--blue),
+              60px 110px var(--blue),
+              70px 110px var(--blue),
+              /* Linha 3 - calca */
+              20px 100px var(--blue),
+              30px 100px var(--blue),
+              60px 100px var(--blue),
+              70px 100px var(--blue),
+              /* Linha 4 - calca */
+              20px 90px var(--blue),
+              30px 90px var(--blue),
+              60px 90px var(--blue),
+              70px 90px var(--blue),
+              /* Linha 5 - calca */
+              20px 80px var(--blue),
+              30px 80px var(--blue),
+              60px 80px var(--blue),
+              70px 80px var(--blue),
+              /* Linha 6 - calca */
+              20px 70px var(--blue),
+              30px 70px var(--blue),
+              60px 70px var(--blue),
+              70px 70px var(--blue),
+              /* Linha 9 - calca */
+              20px 60px var(--blue),
+              30px 60px var(--blue),
+              60px 60px var(--blue),
+              70px 60px var(--blue),
+              /* Inicio Cintura - calca */
+              20px 50px var(--blue),
+              30px 50px var(--blue),
+              40px 50px var(--blue),
+              50px 50px var(--blue),
+              60px 50px var(--blue),
+              70px 50px var(--blue),
+              /* Inicio Cintura - linha 2 */
+              20px 40px var(--blue),
+              30px 40px var(--blue),
+              40px 40px var(--blue),
+              50px 40px var(--blue),
+              60px 40px var(--blue),
+              70px 40px var(--blue),
+              /* Cinto */
+              20px 30px var(--brown-600),
+              30px 30px var(--brown-600),
+              40px 30px var(--orange),
+              50px 30px var(--orange),
+              60px 30px var(--brown-600),
+              70px 30px var(--brown-600),
+              /* Camisa */
+              10px 20px var(--rose-300),
+              20px 20px var(--black),
+              30px 20px var(--yellow-500),
+              40px 20px var(--yellow-500),
+              50px 20px var(--yellow-500),
+              60px 20px var(--yellow-500),
+              70px 20px var(--black),
+              80px 20px var(--rose-300),
+              /* Camisa linha 2 */
+               0px 10px var(--yellow-600),
+              10px 10px var(--rose-300),
+              20px 10px var(--white),
+              30px 10px var(--white),
+              40px 10px var(--yellow-500),
+              50px 10px var(--yellow-500),
+              60px 10px var(--white),
+              70px 10px var(--white),
+              80px 10px var(--rose-300),
+              90px 10px var(--yellow-600),
+              /* Camisa linha 3 */
+             -10px 0px var(--yellow-600),
+               0px 0px var(--yellow-500),
+              10px 0px var(--white),
+              20px 0px var(--black),
+              30px 0px var(--white),
+              40px 0px var(--yellow-500),
+              50px 0px var(--yellow-500),
+              60px 0px var(--white),
+              70px 0px var(--black),
+              80px 0px var(--white),
+              90px 0px var(--yellow-500),
+             100px 0px var(--yellow-600),
+             /* Camisa linha 4 */
+             -10px -10px var(--yellow-500),
+               0px -10px var(--yellow-600),
+              10px -10px var(--white),
+              20px -10px var(--white),
+              30px -10px var(--white),
+              40px -10px var(--yellow-500),
+              50px -10px var(--yellow-500),
+              60px -10px var(--black),
+              70px -10px var(--white),
+              80px -10px var(--white),
+              90px -10px var(--yellow-600),
+             100px -10px var(--yellow-500),
+             /* Camisa linha 4 */
+             -10px -20px var(--yellow-600),
+               0px -20px var(--yellow-500),
+              10px -20px var(--yellow-600),
+              20px -20px var(--white),
+              30px -20px var(--yellow-500),
+              40px -20px var(--yellow-600),
+              50px -20px var(--yellow-500),
+              60px -20px var(--yellow-600),
+              70px -20px var(--white),
+              80px -20px var(--yellow-600),
+              90px -20px var(--yellow-500),
+             100px -20px var(--yellow-600),
+             /* Camisa linha 5 */
+             -10px -30px var(--yellow-500),
+               0px -30px var(--yellow-600),
+              10px -30px var(--yellow-500),
+              20px -30px var(--black),
+              30px -30px var(--yellow-600),
+              40px -30px var(--yellow-500),
+              50px -30px var(--yellow-600),
+              60px -30px var(--yellow-500),
+              70px -30px var(--black),
+              80px -30px var(--yellow-500),
+              90px -30px var(--yellow-600),
+             100px -30px var(--yellow-500),
+             /* Camisa linha 6 */
+               0px -40px var(--yellow-500),
+              10px -40px var(--yellow-600),
+              20px -40px var(--white),
+              30px -40px var(--yellow-500),
+              40px -40px var(--brown-800),
+              50px -40px var(--brown-800),
+              60px -40px var(--yellow-500),
+              70px -40px var(--white),
+              80px -40px var(--yellow-600),
+              90px -40px var(--yellow-500),
+              /* Camisa linha 7 */
+              20px -50px var(--black),
+              30px -50px var(--brown-800),
+              40px -50px var(--brown-800),
+              50px -50px var(--brown-800),
+              60px -50px var(--brown-800),
+              70px -50px var(--black),
+              /* Pescoco */
+              30px -60px var(--rose-400),
+              40px -60px var(--rose-400),
+              50px -60px var(--rose-400),
+              60px -60px var(--rose-400),
+              /* Face */
+              20px -70px var(--rose-300),
+              30px -70px var(--rose-300),
+              40px -70px var(--rose-300),
+              50px -70px var(--rose-300),
+              60px -70px var(--rose-300),
+              70px -70px var(--rose-300),
+              /* Face - Linha 2 */
+              10px -80px var(--rose-300),
+              20px -80px var(--rose-300),
+              30px -80px var(--rose-300),
+              40px -80px var(--rose-300),
+              50px -80px var(--rose-300),
+              60px -80px var(--rose-300),
+              70px -80px var(--rose-300),
+              80px -80px var(--rose-300),
+              /* Face - Linha 3 */
+              10px -90px var(--rose-300),
+              20px -90px var(--rose-400),
+              30px -90px var(--rose-300),
+              40px -90px var(--rose-300),
+              50px -90px var(--rose-300),
+              60px -90px var(--rose-300),
+              70px -90px var(--rose-400),
+              80px -90px var(--rose-300),
+              /* Face - Linha 4 */
+              10px -100px var(--rose-300),
+              20px -100px var(--rose-300),
+              30px -100px var(--rose-300),
+              40px -100px var(--rose-300),
+              50px -100px var(--rose-300),
+              60px -100px var(--rose-300),
+              70px -100px var(--rose-300),
+              80px -100px var(--rose-300),
+              /* Hair */
+               0px -110px var(--rose-300),
+              10px -110px var(--brown-900),
+              20px -110px var(--rose-300),
+              30px -110px var(--rose-300),
+              40px -110px var(--rose-300),
+              50px -110px var(--rose-300),
+              60px -110px var(--rose-300),
+              70px -110px var(--rose-300),
+              80px -110px var(--brown-900),
+              90px -110px var(--rose-300),
+              /* Hair - Line 2 */
+               0px -120px var(--rose-300),
+              10px -120px var(--brown-900),
+              20px -120px var(--rose-300),
+              30px -120px var(--rose-300),
+              40px -120px var(--rose-300),
+              50px -120px var(--rose-300),
+              60px -120px var(--rose-300),
+              70px -120px var(--rose-300),
+              80px -120px var(--brown-900),
+              90px -120px var(--rose-300),
+              /* Hair - Line 3 */
+              10px -130px var(--brown-900),
+              20px -130px var(--rose-300),
+              30px -130px var(--rose-300),
+              40px -130px var(--brown-900),
+              50px -130px var(--brown-900),
+              60px -130px var(--brown-900),
+              70px -130px var(--rose-300),
+              80px -130px var(--brown-900),
+              /* Hair - Line 4 */
+              10px -140px var(--brown-900),
+              20px -140px var(--brown-900),
+              30px -140px var(--brown-900),
+              40px -140px var(--brown-900),
+              50px -140px var(--brown-900),
+              60px -140px var(--brown-900),
+              70px -140px var(--brown-900),
+              80px -140px var(--brown-900)
+              ;
+  height: 10px;
+  width: 10px;
+}
