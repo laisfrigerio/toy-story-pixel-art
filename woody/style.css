@@ -1,4 +1,5 @@
 :root {
+  --bg: #d2e6ff;
   --black: #000;
   --blue: #264d80;
   --gray: #bcbcbc;
@@ -23,6 +24,7 @@
 
 body {
   align-items: center;
+  background-color: var(--bg);
   display: flex;
   justify-content: center;
   height: 100vh;
